@@ -1,0 +1,60 @@
+/* product-list.component.css */
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Table Header */
+  .th {
+    background-color: #007bff; /* Header Background Color */
+    color: white; /* Header Text Color */
+    padding: 12px;
+    text-align: left;
+  }
+  th {
+    background-color: #007bff; /* Header Background Color */
+    color: white; /* Header Text Color */
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Table Cell (Data) */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Border Bottom for Rows */
+  }
+  
+  /* Alternate Row Background Color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Even Row Background Color */
+  }
+  
+  /* Button Style */
+  .button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff; /* Button Background Color */
+    color: white; /* Button Text Color */
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth Transition on Hover */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button Background Color on Hover */
+  }
+  
+  /* Button Margin */
+  button + button {
+    margin-left: 5px;
+  }
+  
+  /* Button Icon */
+  button .material-icons {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  

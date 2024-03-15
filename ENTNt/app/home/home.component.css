@@ -1,0 +1,40 @@
+.navbar-nav {
+    align-items: left;
+    margin-left: 20%;
+}
+
+.nav-item {
+    margin-right: 20px; /* Adjust as needed */
+}
+.navbarNav{
+    align-items: center;
+}
+.nav-link {
+    text-decoration: none;
+    color: black; 
+    align-items: left;/* Adjust color as needed */
+    margin-left: -40%;
+}
+
+.active {
+    font-weight: bold; /* Style for active link */
+}
+.idae{
+    color: aqua;
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center;
+}
+body{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This ensures the background image remains fixed when scrolling */
+    height: 100vh; /* This ensures the background covers the entire viewport height */
+
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/029/414/921/small_2x/wooden-table-and-blur-tropical-green-grass-background-product-display-montage-high-quality-8k-fhd-ai-generated-free-photo.jpg);
+}
